@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRMTestAutomation]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="CRMTest">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.SetupPageTest"/>
+      <class name="com.crm.qa.testcases.ServiceHomePageTest"/>
+      <class name="com.crm.qa.testcases.ChatterPageTest"/>
+    </classes>
+  </test> <!-- CRMTest -->
+</suite> <!-- Failed suite [CRMTestAutomation] -->
